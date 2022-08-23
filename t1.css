@@ -1,0 +1,34 @@
+
+body{
+    background-color: white;
+    cursor:pointer;
+}
+.flex-item
+{
+    background-color: white;
+    border:3px solid black;
+    flex-grow: 1;
+    background-color: #f2f4f8;
+
+}
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    width:60%;
+
+    margin-left:18rem;
+
+}
+.sub-container
+{
+    display: flex;
+    height:70vh;
+    flex-direction: column;
+    flex:1;
+}
+.extend
+{
+    flex-grow: 2;
+    transition: 0.9s ease;
+}
